@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="BasePage.cs" />
     <Compile Include="BrowserType.cs" />
+    <Compile Include="DetailPanelPage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebDriverExtensions.cs" />
