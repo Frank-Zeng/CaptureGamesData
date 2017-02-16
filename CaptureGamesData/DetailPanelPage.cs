@@ -1,9 +1,8 @@
-﻿namespace ICEDashboardLoadTest.Selenium.Pages
+﻿namespace CaptureGamesData
 {
     using OpenQA.Selenium;
     using OpenQA.Selenium.Support.PageObjects;
     using System.Diagnostics.Contracts;
-    using TestCommonLibrary.Utils;
 
     public class DetailPanelPage : BasePage
     {
@@ -83,7 +82,7 @@
         {
             WaitTillElementShow(HoldLocationNote);
 
-            HoldLocationNote.SendKeys(BasicDataMockHelper.MockRandomAlphabetString(5));
+            HoldLocationNote.SendKeys("5");
         }
     }
 }
